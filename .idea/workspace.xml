@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="463cbf51-da3b-45d6-9f20-fbb63c2dab1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="463cbf51-da3b-45d6-9f20-fbb63c2dab1f" name="Default Changelist" comment="added iteration to execute opCode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clases&amp;InterfacesJG/calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clases&amp;InterfacesJG/calculator/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculator/MathEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/MathEquation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +42,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -74,32 +94,74 @@
       <option name="presentableId" value="Default" />
       <updated>1603704726710</updated>
     </task>
+    <task id="LOCAL-00001" summary="added iteration to execute opCode">
+      <created>1603711522276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603711522276</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added iteration to execute opCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="added iteration to execute opCode" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="653" y="216" key="#com.intellij.ide.util.MemberChooser" timestamp="1603720187609">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="216" key="#com.intellij.ide.util.MemberChooser/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603720187609" />
     <state x="578" y="308" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1603707744030">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="308" key="#com.intellij.ide.util.PackageChooserDialog/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603707744030" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1603711232165">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1603720394028">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603711232165" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1603711232163">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603720394028" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1603720394025">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603711232163" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1603711232163">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603720394025" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1603720394024">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603711232163" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1603711232164">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603720394024" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1603720394026">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603711232164" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603720394026" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603711640718">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603711640718" />
     <state x="578" y="267" key="extract.method.dialog" timestamp="1603711317349">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="267" key="extract.method.dialog/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603711317349" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/calculator/Main.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

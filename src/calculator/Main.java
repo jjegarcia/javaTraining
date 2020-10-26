@@ -45,9 +45,9 @@ public class Main {
 
     private static void create(double[] leftVals, double[] rightVals, char[] opCodes, MathEquation[] equations, int index) {
         equations[index]=new MathEquation();
-        equations[index].leftVal=leftVals[index];
-        equations[index].rightVal=rightVals[index];
-        equations[index].opCode=opCodes[index];
+        equations[index].setLeftVal(leftVals[index]);
+        equations[index].setRightVal(rightVals[index]);
+        equations[index].setOpCode(opCodes[index]);
     }
 
 }
