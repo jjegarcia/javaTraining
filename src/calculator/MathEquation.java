@@ -1,6 +1,23 @@
 package calculator;
 
 public class MathEquation {
+    double leftVal;
+    double rightVal;
+    char opCode;
+    double result;
+
+    public MathEquation() {}
+
+    public MathEquation(char opCode){
+        this.opCode=opCode;
+    }
+
+    public MathEquation(char opCode, double leftVal,double rightVal){
+        this(opCode);
+        this.leftVal=leftVal;
+        this.rightVal=rightVal;
+    }
+
     public double getRightVal() {
         return rightVal;
     }
@@ -32,11 +49,6 @@ public class MathEquation {
     public void setResult(double result) {
         this.result = result;
     }
-
-    double leftVal;
-    double rightVal;
-    char opCode;
-    double result;
 
     void execute() {
         switch (opCode) {

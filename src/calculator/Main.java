@@ -29,25 +29,22 @@ public class Main {
     }
 
     private static void executeEquations(MathEquation[] equations) {
-        for (MathEquation equation: equations) {
+        for (MathEquation equation : equations) {
             equation.execute();
             System.out.println("result=" + equation.result);
         }
     }
 
     private static MathEquation[] getMathEquations(double[] leftVals, double[] rightVals, char[] opCodes) {
-        MathEquation[] equations= new MathEquation[4];
-        for (int index=0; index <equations.length ; index++) {
+        MathEquation[] equations = new MathEquation[4];
+        for (int index = 0; index < equations.length; index++) {
             create(leftVals, rightVals, opCodes, equations, index);
         }
         return equations;
     }
 
     private static void create(double[] leftVals, double[] rightVals, char[] opCodes, MathEquation[] equations, int index) {
-        equations[index]=new MathEquation();
-        equations[index].setLeftVal(leftVals[index]);
-        equations[index].setRightVal(rightVals[index]);
-        equations[index].setOpCode(opCodes[index]);
+        equations[index] = new MathEquation(opCodes[index], leftVals[index], rightVals[index]);
     }
 
 }
