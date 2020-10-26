@@ -26,13 +26,15 @@ public class Main {
 
         MathEquation[] equations = getMathEquations(leftVals, rightVals, opCodes);
         executeEquations(equations);
+
     }
 
     private static void executeEquations(MathEquation[] equations) {
-        for (MathEquation equation : equations) {
+       for (MathEquation equation : equations) {
             equation.execute();
             System.out.println("result=" + equation.result);
-        }
+           System.out.println("average=" + MathEquation.getAverageResult());
+       }
     }
 
     private static MathEquation[] getMathEquations(double[] leftVals, double[] rightVals, char[] opCodes) {

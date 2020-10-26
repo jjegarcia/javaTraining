@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="463cbf51-da3b-45d6-9f20-fbb63c2dab1f" name="Default Changelist" comment="added getters and setters">
+    <list default="true" id="463cbf51-da3b-45d6-9f20-fbb63c2dab1f" name="Default Changelist" comment="reworked for using constructors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clases&amp;InterfacesJG/calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clases&amp;InterfacesJG/calculator/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Clases&amp;InterfacesJG/calculator/MathEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clases&amp;InterfacesJG/calculator/MathEquation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/calculator/MathEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/MathEquation.java" afterDir="false" />
@@ -109,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603721064528</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="reworked for using constructors">
+      <created>1603722617610</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603722617610</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,7 +134,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added iteration to execute opCode" />
     <MESSAGE value="added getters and setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="added getters and setters" />
+    <MESSAGE value="reworked for using constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="reworked for using constructors" />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="216" key="#com.intellij.ide.util.MemberChooser" timestamp="1603720187609">
@@ -141,22 +150,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="458" height="466" key="DebuggerActiveHint/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603720919341" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1603722137603">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1603724474630">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603722137603" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1603722137602">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603724474630" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1603724474629">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603722137602" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1603722137601">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603724474629" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1603724474628">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603722137601" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1603722137603">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603724474628" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1603724474630">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603722137603" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603724474630" />
     <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1603721014835">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
