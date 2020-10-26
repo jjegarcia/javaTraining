@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="463cbf51-da3b-45d6-9f20-fbb63c2dab1f" name="Default Changelist" comment="calculation of verage using static members">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Clases&amp;InterfacesJG/calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clases&amp;InterfacesJG/calculator/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Clases&amp;InterfacesJG/calculator/MathEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Clases&amp;InterfacesJG/calculator/MathEquation.class" afterDir="false" />
+    <list default="true" id="463cbf51-da3b-45d6-9f20-fbb63c2dab1f" name="Default Changelist" comment="using execute overloading method">
       <change beforePath="$PROJECT_DIR$/src/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/MathEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/MathEquation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603726563010</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="using execute overloading method">
+      <created>1603727674655</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603727674655</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +146,8 @@
     <MESSAGE value="added getters and setters" />
     <MESSAGE value="reworked for using constructors" />
     <MESSAGE value="calculation of verage using static members" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculation of verage using static members" />
+    <MESSAGE value="using execute overloading method" />
+    <option name="LAST_COMMIT_MESSAGE" value="using execute overloading method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="216" key="#com.intellij.ide.util.MemberChooser" timestamp="1603720187609">
@@ -158,22 +162,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="458" height="466" key="DebuggerActiveHint/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603720919341" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1603727381431">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1603727601570">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603727381431" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1603727381429">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603727601570" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1603727601569">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603727381429" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1603727381428">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603727601569" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1603727601568">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603727381428" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1603727381430">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603727601568" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1603727601569">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603727381430" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/-2560.-1040.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603727601569" />
     <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1603726496392">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

@@ -33,6 +33,11 @@ public class Main {
         equationOverload.execute(leftDouble,rightDouble);
         System.out.println("with overload:"+equationOverload.getResult());
 
+        int leftInt =9;
+        int rightInt = 4;
+        equationOverload.execute(leftInt,rightInt);
+        System.out.println("with overload, with int type:"+equationOverload.getResult());
+
     }
 
     private static void executeEquations(MathEquation[] equations) {
