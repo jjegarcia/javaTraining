@@ -24,19 +24,23 @@ public class Main {
         char[] opCodes = {'d', 'a', 's', 'm'};
         double[] results = new double[opCodes.length];
 
+        MathEquation[] equations = getMathEquations(leftVals, rightVals, opCodes);
+        executeEquations(equations);
+    }
+
+    private static void executeEquations(MathEquation[] equations) {
+        for (MathEquation equation: equations) {
+            equation.execute();
+            System.out.println("result=" + equation.result);
+        }
+    }
+
+    private static MathEquation[] getMathEquations(double[] leftVals, double[] rightVals, char[] opCodes) {
         MathEquation[] equations= new MathEquation[4];
-
         for (int index=0; index <equations.length ; index++) {
-            create(leftVals, rightVals, opCodes, equations,index);
+            create(leftVals, rightVals, opCodes, equations, index);
         }
-
-
-        for (int i = 0; i < opCodes.length; i++) {
-            results[i] = execute(opCodes[i], leftVals[i], rightVals[i]);
-        }
-        for (double currentResult : results)
-            System.out.println("result = " + currentResult);
-
+        return equations;
     }
 
     private static void create(double[] leftVals, double[] rightVals, char[] opCodes, MathEquation[] equations, int index) {
@@ -46,28 +50,6 @@ public class Main {
         equations[index].opCode=opCodes[index];
     }
 
-    static double execute(char opCode, double leftVal, double rightVal) {
-        double result;
-        switch (opCode) {
-            case 'a':
-                result = leftVal + rightVal;
-                break;
-            case 's':
-                result = leftVal - rightVal;
-                break;
-            case 'm':
-                result = leftVal * rightVal;
-                break;
-            case 'd':
-                result = rightVal != 0 ? leftVal / rightVal : 0.0d;
-                break;
-            default:
-                System.out.println("Invalid opCode: " + opCode);
-                result = 0.0d;
-                break;
-        }
-        return result;
-    }
 }
 
 
