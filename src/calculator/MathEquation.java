@@ -83,6 +83,12 @@ public class MathEquation {
         sumOfResults += result;
     }
 
+    public void execute( double leftVal,double rightVal){ //overloading
+        this.leftVal=leftVal;
+        this.rightVal=rightVal;
+        execute();
+    }
+
     public static double getAverageResult(){
        return sumOfResults/numberOfCalculations;
     }

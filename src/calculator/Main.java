@@ -27,6 +27,12 @@ public class Main {
         MathEquation[] equations = getMathEquations(leftVals, rightVals, opCodes);
         executeEquations(equations);
 
+        MathEquation equationOverload= new MathEquation('d');
+        double leftDouble=9.0d;
+        double rightDouble=4.0;
+        equationOverload.execute(leftDouble,rightDouble);
+        System.out.println("with overload:"+equationOverload.getResult());
+
     }
 
     private static void executeEquations(MathEquation[] equations) {
