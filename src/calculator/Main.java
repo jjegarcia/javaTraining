@@ -20,6 +20,23 @@ public class Main {
         doCalculation(divider, 100.0d, 50.0d);
         Adder adder = new Adder();
         doCalculation(adder, 25.0d, 92.0d);
+
+        performMoreCalculations();
+    }
+
+    private static void performMoreCalculations() {
+        CalculateBase[] calculations={
+                new Divider(100.0d,50.0d),
+                new Adder(25.0d,92.0d),
+                new Substractor(225.0d,17.0d),
+                new Multiplier(11.0d,3.0d)
+        };
+
+        System.out.println("Array Calculations");
+        for (CalculateBase calculation: calculations){
+            calculation.calculate();
+            System.out.println("result="+calculation.getResult());
+        }
     }
 
     static void doCalculation(CalculateBase calculation, double leftVal, double rightVal) {

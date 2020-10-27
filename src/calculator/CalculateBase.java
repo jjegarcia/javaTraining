@@ -1,13 +1,19 @@
 package calculator;
 
-public class CalculateBase {
+public abstract class CalculateBase {
     private double leftVal;
     private double rightVal;
     private double result;
 
-    public void calculate() {
-
+    public CalculateBase() {
     }
+
+    public CalculateBase(double leftVal, double rightVal) {
+        this.leftVal = leftVal;
+        this.rightVal = rightVal;
+    }
+
+    public abstract void calculate();
 
     public double getLeftVal() {
         return leftVal;
