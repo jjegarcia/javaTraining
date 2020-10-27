@@ -15,7 +15,18 @@ package calculator;
 public class Main {
 
     public static void main(String[] args) {
-        performCalculations();
+        //performCalculations();
+        Divider divider = new Divider();
+        doCalculation(divider, 100.0d, 50.0d);
+        Adder adder = new Adder();
+        doCalculation(adder, 25.0d, 92.0d);
+    }
+
+    static void doCalculation(CalculateBase calculation, double leftVal, double rightVal) {
+        calculation.setLeftVal(leftVal);
+        calculation.setRightVal(rightVal);
+        calculation.calculate();
+        System.out.println("Calculation Result= " + calculation.getResult());
     }
 
     static void performCalculations() {
@@ -27,25 +38,25 @@ public class Main {
         MathEquation[] equations = getMathEquations(leftVals, rightVals, opCodes);
         executeEquations(equations);
 
-        MathEquation equationOverload= new MathEquation('d');
-        double leftDouble=9.0d;
-        double rightDouble=4.0;
-        equationOverload.execute(leftDouble,rightDouble);
-        System.out.println("with overload:"+equationOverload.getResult());
+        MathEquation equationOverload = new MathEquation('d');
+        double leftDouble = 9.0d;
+        double rightDouble = 4.0;
+        equationOverload.execute(leftDouble, rightDouble);
+        System.out.println("with overload:" + equationOverload.getResult());
 
-        int leftInt =9;
+        int leftInt = 9;
         int rightInt = 4;
-        equationOverload.execute(leftInt,rightInt);
-        System.out.println("with overload, with int type:"+equationOverload.getResult());
+        equationOverload.execute(leftInt, rightInt);
+        System.out.println("with overload, with int type:" + equationOverload.getResult());
 
     }
 
     private static void executeEquations(MathEquation[] equations) {
-       for (MathEquation equation : equations) {
+        for (MathEquation equation : equations) {
             equation.execute();
             System.out.println("result=" + equation.result);
-           System.out.println("average=" + MathEquation.getAverageResult());
-       }
+            System.out.println("average=" + MathEquation.getAverageResult());
+        }
     }
 
     private static MathEquation[] getMathEquations(double[] leftVals, double[] rightVals, char[] opCodes) {
