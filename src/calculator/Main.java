@@ -24,8 +24,8 @@ public class Main {
 //        doCalculation(adder, 25.0d, 92.0d);
 //
 //        performMoreCalculations();
-            executeInteractively();
-
+//            executeInteractively();
+        dynamicInteractivity();
 
     }
 
@@ -129,6 +129,21 @@ public class Main {
         calculation.calculate();
         System.out.println("Operation Perfomed: " + operation);
         System.out.println(calculation.getResult());
+    }
+    private static void dynamicInteractivity(){
+        DynamicHelper helper= new DynamicHelper(new MathProcessing[]{
+            new Adder(),
+                new Substractor(),
+                new Multiplier(),
+                new Divider(),
+                new PowerOf()
+        });
+
+        System.out.println("Enter an opperation and two numbers: ");
+        Scanner scanner = new Scanner(System.in);
+        String userInput = scanner.nextLine();
+
+        helper.process(userInput);
     }
 }
 
