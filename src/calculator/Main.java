@@ -139,7 +139,7 @@ public class Main {
                 new PowerOf()
         });
 
-        System.out.println("Enter an opperation and two numbers: ");
+        System.out.println("Enter an operation and two numbers: ");
         Scanner scanner = new Scanner(System.in);
         String userInput = scanner.nextLine();
 

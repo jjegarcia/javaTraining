@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="463cbf51-da3b-45d6-9f20-fbb63c2dab1f" name="Default Changelist" comment="using interfaces easily created PowerOf">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/MathProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/MathProcessing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/PowerOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/PowerOf.java" afterDir="false" />
+    <list default="true" id="463cbf51-da3b-45d6-9f20-fbb63c2dab1f" name="Default Changelist" comment="using interfaces easily created default signatures">
+      <change beforePath="$PROJECT_DIR$/src/calculator/DynamicHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/DynamicHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603820023703</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="using interfaces easily created default signatures">
+      <created>1603821987650</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603821987650</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +208,8 @@
     <MESSAGE value=" base class declared as abstract and implemented override in indivudual calculate method from children" />
     <MESSAGE value="using enum class and interactive UI" />
     <MESSAGE value="using interfaces easily created PowerOf" />
-    <option name="LAST_COMMIT_MESSAGE" value="using interfaces easily created PowerOf" />
+    <MESSAGE value="using interfaces easily created default signatures" />
+    <option name="LAST_COMMIT_MESSAGE" value="using interfaces easily created default signatures" />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1603820677488">

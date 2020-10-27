@@ -21,7 +21,9 @@ public class DynamicHelper {
             }
         }
         double result= theHandler.doCalculation(leftVal,rightVal);
+        if (theHandler.getFormattedOutput()==null)
         System.out.println("result="+result);
+        else System.out.println(theHandler.getFormattedOutput());
     }
 
 }
